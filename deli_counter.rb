@@ -6,10 +6,10 @@ def line(katz_deli)
   #The line is currently: 1. Logan 2. Avi 3. Spencer"
   line = "The line is currently: "
   katz_deli.each_with_index do |name, index|
-    line += “#{index + 1}. #{name}""
+    line += "#{index + 1}. #{name}"
 
 end
-
+puts line
  end
 end
 
