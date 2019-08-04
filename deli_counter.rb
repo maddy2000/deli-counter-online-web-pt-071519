@@ -17,7 +17,7 @@ end
 
 def now_serving(katz_deli, name)
  if katz_deli.length == 0
-puts "the line is empty"
+puts "There is nobody waiting to be served!"
 else katz_deli.each_with_index do |name, index|
   puts katz_deli.push(name)
  
